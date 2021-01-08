@@ -1,0 +1,199 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/sam/Desktop/BE s7/modelsim
+Ppack_system
+Z0 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z1 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+32
+Z2 !s110 1607086231
+w1605038912
+Z3 dC:/Users/ar5ilis/Desktop/BE18/Sami BEN ALI Montassar DRIDI BE 8/modelsim
+8C:/Users/ar5ilis/Desktop/BE18/Sami BEN ALI Montassar DRIDI BE 8/vhdl/soc/pack_system.vhd
+FC:/Users/ar5ilis/Desktop/BE18/Sami BEN ALI Montassar DRIDI BE 8/vhdl/soc/pack_system.vhd
+l0
+L4
+VZYL4L;@GH1ZIO?kg=J4Y[3
+!s100 kcFCRzejnLU?UQ?hPEePo0
+Z4 OL;C;10.5;63
+!i10b 1
+Z5 !s108 1607086231.000000
+!s90 -reportprogress|300|-work|soc|-2002|-explicit|-vopt|-stats=none|C:/Users/ar5ilis/Desktop/BE18/Sami BEN ALI Montassar DRIDI BE 8/vhdl/soc/pack_system.vhd|
+!s107 C:/Users/ar5ilis/Desktop/BE18/Sami BEN ALI Montassar DRIDI BE 8/vhdl/soc/pack_system.vhd|
+!i113 0
+Z6 o-work soc -2002 -explicit
+Z7 tExplicit 1 CvgOpt 0
+Eram_1ko_256x32
+Z8 w1605040055
+Z9 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+R0
+R1
+R3
+Z10 8C:/Users/ar5ilis/Desktop/BE18/Sami BEN ALI Montassar DRIDI BE 8/vhdl/soc/RAM_1ko_256x32.vhd
+Z11 FC:/Users/ar5ilis/Desktop/BE18/Sami BEN ALI Montassar DRIDI BE 8/vhdl/soc/RAM_1ko_256x32.vhd
+l0
+L5
+V7b4iki8:OQka]X4YE4RBN0
+!s100 L;6G1[T]6B=E9EKPgMLQ53
+R4
+32
+R2
+!i10b 1
+R5
+Z12 !s90 -reportprogress|300|-work|soc|-2002|-explicit|-vopt|-stats=none|C:/Users/ar5ilis/Desktop/BE18/Sami BEN ALI Montassar DRIDI BE 8/vhdl/soc/RAM_1ko_256x32.vhd|
+Z13 !s107 C:/Users/ar5ilis/Desktop/BE18/Sami BEN ALI Montassar DRIDI BE 8/vhdl/soc/RAM_1ko_256x32.vhd|
+!i113 0
+R6
+R7
+Aa
+R9
+R0
+R1
+DEx4 work 14 ram_1ko_256x32 0 22 7b4iki8:OQka]X4YE4RBN0
+32
+R2
+l22
+L16
+VZa=o3TY8cW2kCNcZN`c>P2
+!s100 2Y64:<T74GW4M0`H?gl072
+R4
+!i10b 1
+R5
+R12
+R13
+!i113 0
+R6
+R7
+Erom_1ko_256x32
+Z14 w1605447467
+R9
+R0
+R1
+R3
+Z15 8C:/Users/ar5ilis/Desktop/BE18/Sami BEN ALI Montassar DRIDI BE 8/vhdl/soc/ROM_1ko_256x32.vhd
+Z16 FC:/Users/ar5ilis/Desktop/BE18/Sami BEN ALI Montassar DRIDI BE 8/vhdl/soc/ROM_1ko_256x32.vhd
+l0
+L5
+VPAN]1j<?fi2eBF8`]WK;B0
+!s100 ETjkfJb9ONbKf=g[jA7nb0
+R4
+32
+R2
+!i10b 1
+R5
+Z17 !s90 -reportprogress|300|-work|soc|-2002|-explicit|-vopt|-stats=none|C:/Users/ar5ilis/Desktop/BE18/Sami BEN ALI Montassar DRIDI BE 8/vhdl/soc/ROM_1ko_256x32.vhd|
+Z18 !s107 C:/Users/ar5ilis/Desktop/BE18/Sami BEN ALI Montassar DRIDI BE 8/vhdl/soc/ROM_1ko_256x32.vhd|
+!i113 0
+R6
+R7
+Aa
+R9
+R0
+R1
+DEx4 work 14 rom_1ko_256x32 0 22 PAN]1j<?fi2eBF8`]WK;B0
+32
+R2
+l20
+L13
+V2hCTXCCDWnz`z`Zg0o5Gm0
+!s100 O``2KzWJXoBI3@VMXJlH]2
+R4
+!i10b 1
+R5
+R17
+R18
+!i113 0
+R6
+R7
+Esystem
+Z19 w1605704799
+Z20 DPx5 riscv 13 pack_riscv32i 0 22 ;RG3[czjF6`=[BO`?cDKO3
+Z21 DPx3 soc 11 pack_system 0 22 ZYL4L;@GH1ZIO?kg=J4Y[3
+R9
+R0
+R1
+R3
+Z22 8C:/Users/ar5ilis/Desktop/BE18/Sami BEN ALI Montassar DRIDI BE 8/vhdl/soc/system.vhd
+Z23 FC:/Users/ar5ilis/Desktop/BE18/Sami BEN ALI Montassar DRIDI BE 8/vhdl/soc/system.vhd
+l0
+L11
+V46dg:6G1Jh6SGYNWC?gIB0
+!s100 TS7MSNO0=c5?alkVUB?NW3
+R4
+32
+R2
+!i10b 1
+R5
+Z24 !s90 -reportprogress|300|-work|soc|-2002|-explicit|-vopt|-stats=none|C:/Users/ar5ilis/Desktop/BE18/Sami BEN ALI Montassar DRIDI BE 8/vhdl/soc/system.vhd|
+Z25 !s107 C:/Users/ar5ilis/Desktop/BE18/Sami BEN ALI Montassar DRIDI BE 8/vhdl/soc/system.vhd|
+!i113 0
+R6
+R7
+Aa
+R20
+R21
+R9
+R0
+R1
+DEx4 work 6 system 0 22 46dg:6G1Jh6SGYNWC?gIB0
+32
+R2
+l54
+L31
+VB<Cid:g[YBV_Q1[maHoo32
+!s100 n<2I6PWCh4ZlY7hHA;mEU0
+R4
+!i10b 1
+R5
+R24
+R25
+!i113 0
+R6
+R7
+Etb_system
+Z26 w1605712692
+R21
+R0
+R1
+R3
+Z27 8C:/Users/ar5ilis/Desktop/BE18/Sami BEN ALI Montassar DRIDI BE 8/vhdl/soc/tb_system.vhd
+Z28 FC:/Users/ar5ilis/Desktop/BE18/Sami BEN ALI Montassar DRIDI BE 8/vhdl/soc/tb_system.vhd
+l0
+L7
+VdD=BOFH?IF<NfAVeNF]zo0
+!s100 [60k;3lTEom`zE4Xi]NR72
+R4
+32
+R2
+!i10b 1
+R5
+Z29 !s90 -reportprogress|300|-work|soc|-2002|-explicit|-vopt|-stats=none|C:/Users/ar5ilis/Desktop/BE18/Sami BEN ALI Montassar DRIDI BE 8/vhdl/soc/tb_system.vhd|
+Z30 !s107 C:/Users/ar5ilis/Desktop/BE18/Sami BEN ALI Montassar DRIDI BE 8/vhdl/soc/tb_system.vhd|
+!i113 0
+R6
+R7
+Aa
+R21
+R0
+R1
+DEx4 work 9 tb_system 0 22 dD=BOFH?IF<NfAVeNF]zo0
+32
+R2
+l28
+L22
+VfL:4HgNAMhTW7?CJTP]J^3
+!s100 dV]8kR3fHjhNMcHY;B@OR2
+R4
+!i10b 1
+R5
+R29
+R30
+!i113 0
+R6
+R7

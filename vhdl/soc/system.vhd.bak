@@ -1,0 +1,125 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+library soc;
+use soc.pack_system.all;
+
+library riscv;
+use riscv.pack_RISCV32I.all;
+
+entity system is
+   generic(
+      --RISCV
+      PROG_ENTRY_POINT_ADDRESS : std_logic_vector(32-1 downto 0);
+      PROG_EXIT_POINT_ADDRESS  : std_logic_vector(32-1 downto 0);
+      --Data bus       
+      ----D0       
+      D0_START : std_logic_vector(32-1 downto 0);
+      D0_END   : std_logic_vector(32-1 downto 0);
+      ----D1   
+      D1_START : std_logic_vector(32-1 downto 0);
+      D1_END   : std_logic_vector(32-1 downto 0)
+   );
+   port(
+      reset       : in std_logic;
+      clk         : in std_logic; 
+      enable      : in std_logic
+   );
+end entity;
+
+architecture a of system is
+
+   signal CPU_IAddr     : std_logic_vector(32-1 downto 0); 
+   signal CPU_IData     : std_logic_vector(32-1 downto 0); 
+   signal CPU_DBE       : std_logic_vector( 4-1 downto 0);
+   signal CPU_DAddr     : std_logic_vector(32-1 downto 0); 
+   signal CPU_DWrite    : std_logic;
+   signal CPU_DData_out : std_logic_vector(32-1 downto 0);
+   signal CPU_DData_in  : std_logic_vector(32-1 downto 0);
+
+   signal D0_Data_out   : std_logic_vector(32-1 downto 0);
+   signal D1_Data_out   : std_logic_vector(32-1 downto 0);
+
+   signal CS_D0         : std_logic;
+   signal CS_D1         : std_logic;
+   signal CS            : std_logic_vector( 2-1 downto 0);
+
+   signal D1_RnW        : std_logic;
+
+   signal CPU_IAddr_Modelsim : std_logic_vector(32-1 downto 2);
+   signal CPU_DAddr_Modelsim : std_logic_vector(32-1 downto 2);
+
+
+begin
+
+   --Détection de la fin de simulation
+   assert not ((enable='1') and (unsigned(CPU_IAddr)=unsigned(PROG_EXIT_POINT_ADDRESS)))
+      report "Fin du programme atteinte."
+      severity failure;
+
+   --Affichage des addresses pour accéder au mémoires dans Modelsim
+   CPU_IAddr_Modelsim <= CPU_IAddr(31 downto 2);
+   CPU_DAddr_Modelsim <= CPU_DAddr(31 downto 2);
+
+   CPU :  RISCV32I_core
+      generic map(
+         PC_START_ADDRESS => PROG_ENTRY_POINT_ADDRESS
+      )
+      port map(
+         --Controls
+         reset     => reset,
+         clk       => clk, 
+         enable    => enable,
+         --Instructions Bus 
+         IAddr     => CPU_IAddr(31 downto 2), 
+         IData     => CPU_IData, 
+         --Data Bus
+         DBE       => CPU_DBE,
+         DAddr     => CPU_DAddr(31 downto 2),
+         DWrite    => CPU_DWrite,
+         DData_out => CPU_DData_out,
+         DData_in  => CPU_DData_in
+      );
+
+   CPU_IAddr(1 downto 0) <= "00";
+   CPU_DAddr(1 downto 0) <= "00";
+
+   I0 : ROM_1ko_256x32
+   port map(
+      address => CPU_IAddr(10-1 downto 2),
+      data    => CPU_IData
+   );
+   
+   D0 : ROM_1ko_256x32
+   port map(
+      address => CPU_DAddr(10-1 downto 2),
+      data    => D0_Data_out
+   );
+   
+   D1 : RAM_1ko_256x32
+   port map(
+         clk      => clk,
+         RnW      => D1_RnW,
+         address  => CPU_DAddr(10-1 downto 2),
+         BE       => CPU_DBE,
+         data_in  => CPU_DData_out,
+         data_out => D1_Data_out
+      );
+
+   CS_D0 <= '1' when (    (unsigned(D0_START )<=unsigned(CPU_DAddr))
+                      and (unsigned(CPU_DAddr)<=unsigned(D0_END   ))) else '0';
+
+   CS_D1 <= '1' when (    (unsigned(D1_START )<=unsigned(CPU_DAddr))
+                      and (unsigned(CPU_DAddr)<=unsigned(D1_END   ))) else '0';
+
+   CS <= CS_D1 & CS_D0;
+   
+   with CS select
+   CPU_DData_in <= D0_Data_out   when "01",
+                   D1_Data_out   when "10",
+                   (others=>'0') when others;
+
+   D1_RnW <= not (CPU_DWrite and CS_D1);
+
+end a;

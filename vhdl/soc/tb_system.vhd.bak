@@ -1,0 +1,53 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+library soc;
+use soc.pack_system.all;
+
+entity tb_system is
+   generic(
+      --RISCV
+      PROG_ENTRY_POINT_ADDRESS : std_logic_vector(32-1 downto 0):=x"00000000";
+      PROG_EXIT_POINT_ADDRESS  : std_logic_vector(32-1 downto 0):=x"00000028";
+      --Data bus       
+      ----D0       
+      D0_START : std_logic_vector(32-1 downto 0):=x"10000000";
+      D0_END   : std_logic_vector(32-1 downto 0):=x"100003FF"; 
+      ----D1   
+      D1_START : std_logic_vector(32-1 downto 0):=x"10000400";
+      D1_END   : std_logic_vector(32-1 downto 0):=x"100007FF"
+   );
+end entity;
+
+architecture a of tb_system is
+
+   signal reset  : std_logic;
+   signal clk    : std_logic:='0';
+   signal enable : std_logic;
+
+begin
+
+   DUT : system
+   generic map(
+      --RISCV
+      PROG_ENTRY_POINT_ADDRESS => PROG_ENTRY_POINT_ADDRESS,
+      PROG_EXIT_POINT_ADDRESS  => PROG_EXIT_POINT_ADDRESS,
+      --Data bus       
+      ----D0       
+      D0_START => D0_START,
+      D0_END   => D0_END,
+      ----D1
+      D1_START => D1_START,
+      D1_END   => D1_END
+   )
+   port map(
+      reset  => reset,
+      clk    => clk,
+      enable => enable
+   );
+
+   reset  <= '1', '0' after 120 ns;
+   clk    <= not clk  after  50 ns;
+   enable <= '1';
+
+end a;

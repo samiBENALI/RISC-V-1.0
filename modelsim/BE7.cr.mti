@@ -1,0 +1,496 @@
+../vhdl/RISCV/regBank.vhd {1 {vcom -work riscv -2002 -explicit -vopt -stats=none {C:/Users/ar5ilis/Desktop/BE18/Sami BEN ALI Montassar DRIDI BE 8/vhdl/RISCV/regBank.vhd}
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity RegBank
+-- Compiling architecture a of RegBank
+
+} {} {}} ../vhdl/RISCV/alu.vhd {1 {vcom -work riscv -2002 -explicit -vopt -stats=none {C:/Users/ar5ilis/Desktop/BE18/Sami BEN ALI Montassar DRIDI BE 8/vhdl/RISCV/alu.vhd}
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package pack_RISCV32I
+-- Compiling entity ALU
+-- Compiling architecture archi of ALU
+
+} {} {}} ../vhdl/tb_input_data_manager.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/sam/Desktop/BE s7/vhdl/tb_input_data_manager.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity tb_input_data_manager
+-- Compiling architecture a of tb_input_data_manager
+
+} {} {}} ../vhdl/soc/system.vhd {1 {vcom -work soc -2002 -explicit -vopt -stats=none {C:/Users/ar5ilis/Desktop/BE18/Sami BEN ALI Montassar DRIDI BE 8/vhdl/soc/system.vhd}
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package pack_system
+-- Loading package pack_RISCV32I
+-- Compiling entity system
+-- Compiling architecture a of system
+
+} {} {}} ../vhdl/RISCV/controller.vhd {1 {vcom -work riscv -2002 -explicit -vopt -stats=none {C:/Users/ar5ilis/Desktop/BE18/Sami BEN ALI Montassar DRIDI BE 8/vhdl/RISCV/controller.vhd}
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package pack_RISCV32I
+-- Compiling entity controller
+-- Compiling architecture a of controller
+
+} {} {}} ../vhdl/alu.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/sam/Desktop/BE s7/vhdl/alu.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package pack_RISCV32I
+-- Compiling entity ALU
+-- Compiling architecture archi of ALU
+
+} {} {}} ../vhdl/regBank.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/sam/Desktop/BE s7/vhdl/regBank.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity RegBank
+-- Compiling architecture a of RegBank
+
+} {} {}} ../vhdl/RISCV/RISCV32I_core.vhd {1 {vcom -work riscv -2002 -explicit -vopt -stats=none {C:/Users/ar5ilis/Desktop/BE18/Sami BEN ALI Montassar DRIDI BE 8/vhdl/RISCV/RISCV32I_core.vhd}
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package pack_RISCV32I
+-- Compiling entity RISCV32I_core
+-- Compiling architecture a of RISCV32I_core
+
+} {} {}} ../vhdl/controller.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/sam/Desktop/BE s7/vhdl/controller.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package pack_RISCV32I
+-- Compiling entity controller
+-- Compiling architecture a of controller
+
+} {} {}} ../vhdl/soc/ROM_1ko_256x32.vhd {1 {vcom -work soc -2002 -explicit -vopt -stats=none {C:/Users/ar5ilis/Desktop/BE18/Sami BEN ALI Montassar DRIDI BE 8/vhdl/soc/ROM_1ko_256x32.vhd}
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity ROM_1ko_256x32
+-- Compiling architecture a of ROM_1ko_256x32
+
+} {} {}} ../vhdl/RISCV32I_core.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/sam/Desktop/BE s7/vhdl/RISCV32I_core.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package pack_RISCV32I
+-- Compiling entity RISCV32I_core
+-- Compiling architecture a of RISCV32I_core
+
+} {} {}} ../vhdl/soc/tb_system.vhd {1 {vcom -work soc -2002 -explicit -vopt -stats=none {C:/Users/ar5ilis/Desktop/BE18/Sami BEN ALI Montassar DRIDI BE 8/vhdl/soc/tb_system.vhd}
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package pack_system
+-- Compiling entity tb_system
+-- Compiling architecture a of tb_system
+
+} {} {}} ../vhdl/RISCV/tb_controller.vhd {2 {vcom -work riscv -2002 -explicit -vopt -stats=none {C:/Users/ar5ilis/Desktop/BE18/Sami BEN ALI Montassar DRIDI BE 8/vhdl/RISCV/tb_controller.vhd}
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package pack_RISCV32I
+-- Compiling entity tb_controller
+-- Compiling architecture archi of tb_controller
+** Warning: C:/Users/ar5ilis/Desktop/BE18/Sami BEN ALI Montassar DRIDI BE 8/vhdl/RISCV/tb_controller.vhd(36): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/ar5ilis/Desktop/BE18/Sami BEN ALI Montassar DRIDI BE 8/vhdl/RISCV/tb_controller.vhd(37): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/ar5ilis/Desktop/BE18/Sami BEN ALI Montassar DRIDI BE 8/vhdl/RISCV/tb_controller.vhd(39): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/ar5ilis/Desktop/BE18/Sami BEN ALI Montassar DRIDI BE 8/vhdl/RISCV/tb_controller.vhd(40): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/ar5ilis/Desktop/BE18/Sami BEN ALI Montassar DRIDI BE 8/vhdl/RISCV/tb_controller.vhd(41): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/ar5ilis/Desktop/BE18/Sami BEN ALI Montassar DRIDI BE 8/vhdl/RISCV/tb_controller.vhd(42): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/ar5ilis/Desktop/BE18/Sami BEN ALI Montassar DRIDI BE 8/vhdl/RISCV/tb_controller.vhd(43): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/ar5ilis/Desktop/BE18/Sami BEN ALI Montassar DRIDI BE 8/vhdl/RISCV/tb_controller.vhd(44): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/ar5ilis/Desktop/BE18/Sami BEN ALI Montassar DRIDI BE 8/vhdl/RISCV/tb_controller.vhd(45): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/ar5ilis/Desktop/BE18/Sami BEN ALI Montassar DRIDI BE 8/vhdl/RISCV/tb_controller.vhd(46): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/ar5ilis/Desktop/BE18/Sami BEN ALI Montassar DRIDI BE 8/vhdl/RISCV/tb_controller.vhd(48): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/ar5ilis/Desktop/BE18/Sami BEN ALI Montassar DRIDI BE 8/vhdl/RISCV/tb_controller.vhd(49): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/ar5ilis/Desktop/BE18/Sami BEN ALI Montassar DRIDI BE 8/vhdl/RISCV/tb_controller.vhd(50): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/ar5ilis/Desktop/BE18/Sami BEN ALI Montassar DRIDI BE 8/vhdl/RISCV/tb_controller.vhd(51): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/ar5ilis/Desktop/BE18/Sami BEN ALI Montassar DRIDI BE 8/vhdl/RISCV/tb_controller.vhd(53): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/ar5ilis/Desktop/BE18/Sami BEN ALI Montassar DRIDI BE 8/vhdl/RISCV/tb_controller.vhd(55): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/ar5ilis/Desktop/BE18/Sami BEN ALI Montassar DRIDI BE 8/vhdl/RISCV/tb_controller.vhd(58): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/ar5ilis/Desktop/BE18/Sami BEN ALI Montassar DRIDI BE 8/vhdl/RISCV/tb_controller.vhd(60): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/ar5ilis/Desktop/BE18/Sami BEN ALI Montassar DRIDI BE 8/vhdl/RISCV/tb_controller.vhd(62): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/ar5ilis/Desktop/BE18/Sami BEN ALI Montassar DRIDI BE 8/vhdl/RISCV/tb_controller.vhd(64): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/ar5ilis/Desktop/BE18/Sami BEN ALI Montassar DRIDI BE 8/vhdl/RISCV/tb_controller.vhd(67): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/ar5ilis/Desktop/BE18/Sami BEN ALI Montassar DRIDI BE 8/vhdl/RISCV/tb_controller.vhd(69): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/ar5ilis/Desktop/BE18/Sami BEN ALI Montassar DRIDI BE 8/vhdl/RISCV/tb_controller.vhd(71): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/ar5ilis/Desktop/BE18/Sami BEN ALI Montassar DRIDI BE 8/vhdl/RISCV/tb_controller.vhd(73): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/ar5ilis/Desktop/BE18/Sami BEN ALI Montassar DRIDI BE 8/vhdl/RISCV/tb_controller.vhd(75): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/ar5ilis/Desktop/BE18/Sami BEN ALI Montassar DRIDI BE 8/vhdl/RISCV/tb_controller.vhd(77): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/ar5ilis/Desktop/BE18/Sami BEN ALI Montassar DRIDI BE 8/vhdl/RISCV/tb_controller.vhd(79): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/ar5ilis/Desktop/BE18/Sami BEN ALI Montassar DRIDI BE 8/vhdl/RISCV/tb_controller.vhd(81): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/ar5ilis/Desktop/BE18/Sami BEN ALI Montassar DRIDI BE 8/vhdl/RISCV/tb_controller.vhd(83): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/ar5ilis/Desktop/BE18/Sami BEN ALI Montassar DRIDI BE 8/vhdl/RISCV/tb_controller.vhd(86): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/ar5ilis/Desktop/BE18/Sami BEN ALI Montassar DRIDI BE 8/vhdl/RISCV/tb_controller.vhd(88): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/ar5ilis/Desktop/BE18/Sami BEN ALI Montassar DRIDI BE 8/vhdl/RISCV/tb_controller.vhd(90): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/ar5ilis/Desktop/BE18/Sami BEN ALI Montassar DRIDI BE 8/vhdl/RISCV/tb_controller.vhd(92): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/ar5ilis/Desktop/BE18/Sami BEN ALI Montassar DRIDI BE 8/vhdl/RISCV/tb_controller.vhd(94): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/ar5ilis/Desktop/BE18/Sami BEN ALI Montassar DRIDI BE 8/vhdl/RISCV/tb_controller.vhd(96): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/ar5ilis/Desktop/BE18/Sami BEN ALI Montassar DRIDI BE 8/vhdl/RISCV/tb_controller.vhd(98): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/ar5ilis/Desktop/BE18/Sami BEN ALI Montassar DRIDI BE 8/vhdl/RISCV/tb_controller.vhd(100): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/ar5ilis/Desktop/BE18/Sami BEN ALI Montassar DRIDI BE 8/vhdl/RISCV/tb_controller.vhd(102): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/ar5ilis/Desktop/BE18/Sami BEN ALI Montassar DRIDI BE 8/vhdl/RISCV/tb_controller.vhd(104): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/ar5ilis/Desktop/BE18/Sami BEN ALI Montassar DRIDI BE 8/vhdl/RISCV/tb_controller.vhd(107): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/ar5ilis/Desktop/BE18/Sami BEN ALI Montassar DRIDI BE 8/vhdl/RISCV/tb_controller.vhd(109): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/ar5ilis/Desktop/BE18/Sami BEN ALI Montassar DRIDI BE 8/vhdl/RISCV/tb_controller.vhd(114): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/ar5ilis/Desktop/BE18/Sami BEN ALI Montassar DRIDI BE 8/vhdl/RISCV/tb_controller.vhd(116): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/ar5ilis/Desktop/BE18/Sami BEN ALI Montassar DRIDI BE 8/vhdl/RISCV/tb_controller.vhd(118): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+
+} {} {}} ../vhdl/RISCV/tb_output_data_manager.vhd {1 {vcom -work riscv -2002 -explicit -vopt -stats=none {C:/Users/ar5ilis/Desktop/BE18/Sami BEN ALI Montassar DRIDI BE 8/vhdl/RISCV/tb_output_data_manager.vhd}
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity tb_output_data_manager
+-- Compiling architecture a of tb_output_data_manager
+
+} {} {}} ../vhdl/soc/RAM_1ko_256x32.vhd {1 {vcom -work soc -2002 -explicit -vopt -stats=none {C:/Users/ar5ilis/Desktop/BE18/Sami BEN ALI Montassar DRIDI BE 8/vhdl/soc/RAM_1ko_256x32.vhd}
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity RAM_1ko_256x32
+-- Compiling architecture a of RAM_1ko_256x32
+
+} {} {}} ../vhdl/RISCV/tb_bit_enable.vhd {1 {vcom -work riscv -2002 -explicit -vopt -stats=none {C:/Users/ar5ilis/Desktop/BE18/Sami BEN ALI Montassar DRIDI BE 8/vhdl/RISCV/tb_bit_enable.vhd}
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity tb_bit_enable
+-- Compiling architecture a of tb_bit_enable
+
+} {} {}} ../vhdl/RISCV/tb_decoder.vhd {1 {vcom -work riscv -2002 -explicit -vopt -stats=none {C:/Users/ar5ilis/Desktop/BE18/Sami BEN ALI Montassar DRIDI BE 8/vhdl/RISCV/tb_decoder.vhd}
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package pack_RISCV32I
+-- Compiling entity tb_decoder
+-- Compiling architecture archi of tb_decoder
+
+} {} {}} ../vhdl/tb_output_data_manager.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/sam/Desktop/BE s7/vhdl/tb_output_data_manager.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity tb_output_data_manager
+-- Compiling architecture a of tb_output_data_manager
+
+} {} {}} ../vhdl/tb_controller.vhd {2 {vcom -work work -2002 -explicit -stats=none {C:/Users/sam/Desktop/BE s7/vhdl/tb_controller.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package pack_RISCV32I
+-- Compiling entity tb_controller
+-- Compiling architecture archi of tb_controller
+** Warning: C:/Users/sam/Desktop/BE s7/vhdl/tb_controller.vhd(36): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/sam/Desktop/BE s7/vhdl/tb_controller.vhd(37): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/sam/Desktop/BE s7/vhdl/tb_controller.vhd(39): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/sam/Desktop/BE s7/vhdl/tb_controller.vhd(40): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/sam/Desktop/BE s7/vhdl/tb_controller.vhd(41): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/sam/Desktop/BE s7/vhdl/tb_controller.vhd(42): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/sam/Desktop/BE s7/vhdl/tb_controller.vhd(43): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/sam/Desktop/BE s7/vhdl/tb_controller.vhd(44): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/sam/Desktop/BE s7/vhdl/tb_controller.vhd(45): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/sam/Desktop/BE s7/vhdl/tb_controller.vhd(46): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/sam/Desktop/BE s7/vhdl/tb_controller.vhd(48): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/sam/Desktop/BE s7/vhdl/tb_controller.vhd(49): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/sam/Desktop/BE s7/vhdl/tb_controller.vhd(50): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/sam/Desktop/BE s7/vhdl/tb_controller.vhd(51): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/sam/Desktop/BE s7/vhdl/tb_controller.vhd(53): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/sam/Desktop/BE s7/vhdl/tb_controller.vhd(55): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/sam/Desktop/BE s7/vhdl/tb_controller.vhd(58): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/sam/Desktop/BE s7/vhdl/tb_controller.vhd(60): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/sam/Desktop/BE s7/vhdl/tb_controller.vhd(62): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/sam/Desktop/BE s7/vhdl/tb_controller.vhd(64): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/sam/Desktop/BE s7/vhdl/tb_controller.vhd(67): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/sam/Desktop/BE s7/vhdl/tb_controller.vhd(69): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/sam/Desktop/BE s7/vhdl/tb_controller.vhd(71): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/sam/Desktop/BE s7/vhdl/tb_controller.vhd(73): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/sam/Desktop/BE s7/vhdl/tb_controller.vhd(75): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/sam/Desktop/BE s7/vhdl/tb_controller.vhd(77): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/sam/Desktop/BE s7/vhdl/tb_controller.vhd(79): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/sam/Desktop/BE s7/vhdl/tb_controller.vhd(81): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/sam/Desktop/BE s7/vhdl/tb_controller.vhd(83): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/sam/Desktop/BE s7/vhdl/tb_controller.vhd(86): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/sam/Desktop/BE s7/vhdl/tb_controller.vhd(88): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/sam/Desktop/BE s7/vhdl/tb_controller.vhd(90): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/sam/Desktop/BE s7/vhdl/tb_controller.vhd(92): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/sam/Desktop/BE s7/vhdl/tb_controller.vhd(94): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/sam/Desktop/BE s7/vhdl/tb_controller.vhd(96): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/sam/Desktop/BE s7/vhdl/tb_controller.vhd(98): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/sam/Desktop/BE s7/vhdl/tb_controller.vhd(100): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/sam/Desktop/BE s7/vhdl/tb_controller.vhd(102): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/sam/Desktop/BE s7/vhdl/tb_controller.vhd(104): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/sam/Desktop/BE s7/vhdl/tb_controller.vhd(107): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/sam/Desktop/BE s7/vhdl/tb_controller.vhd(109): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/sam/Desktop/BE s7/vhdl/tb_controller.vhd(114): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/sam/Desktop/BE s7/vhdl/tb_controller.vhd(116): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/sam/Desktop/BE s7/vhdl/tb_controller.vhd(118): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+
+} {} {}} ../vhdl/RISCV/pack_RISCV32I.vhd {1 {vcom -work riscv -2002 -explicit -vopt -stats=none {C:/Users/ar5ilis/Desktop/BE18/Sami BEN ALI Montassar DRIDI BE 8/vhdl/RISCV/pack_RISCV32I.vhd}
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling package pack_RISCV32I
+
+} {} {}} ../vhdl/RISCV/input_data_manager.vhd {1 {vcom -work riscv -2002 -explicit -vopt -stats=none {C:/Users/ar5ilis/Desktop/BE18/Sami BEN ALI Montassar DRIDI BE 8/vhdl/RISCV/input_data_manager.vhd}
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity input_data_manager
+-- Compiling architecture a of input_data_manager
+
+} {} {}} ../vhdl/tb_bit_enable.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/sam/Desktop/BE s7/vhdl/tb_bit_enable.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity tb_BEGenerator
+-- Compiling architecture a of tb_BEGenerator
+
+} {} {}} ../vhdl/RISCV/output_data_manager.vhd {1 {vcom -work riscv -2002 -explicit -vopt -stats=none {C:/Users/ar5ilis/Desktop/BE18/Sami BEN ALI Montassar DRIDI BE 8/vhdl/RISCV/output_data_manager.vhd}
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity output_data_manager
+-- Compiling architecture a of output_data_manager
+
+} {} {}} ../vhdl/RISCV/bit_enbale.vhd {1 {vcom -work riscv -2002 -explicit -vopt -stats=none {C:/Users/ar5ilis/Desktop/BE18/Sami BEN ALI Montassar DRIDI BE 8/vhdl/RISCV/bit_enbale.vhd}
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity bit_enable
+-- Compiling architecture a of bit_enable
+
+} {} {}} ../vhdl/pack_RISCV32I.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/sam/Desktop/BE s7/vhdl/pack_RISCV32I.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling package pack_RISCV32I
+
+} {} {}} ../vhdl/input_data_manager.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/sam/Desktop/BE s7/vhdl/input_data_manager.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity input_data_manager
+-- Compiling architecture a of input_data_manager
+
+} {} {}} ../vhdl/tb_decoder.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/sam/Desktop/BE s7/vhdl/tb_decoder.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package pack_RISCV32I
+-- Compiling entity tb_decoder
+-- Compiling architecture archi of tb_decoder
+
+} {} {}} ../vhdl/output_data_manager.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/sam/Desktop/BE s7/vhdl/output_data_manager.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity output_data_manager
+-- Compiling architecture a of output_data_manager
+
+} {} {}} ../vhdl/RISCV/decoder.vhd {1 {vcom -work riscv -2002 -explicit -vopt -stats=none {C:/Users/ar5ilis/Desktop/BE18/Sami BEN ALI Montassar DRIDI BE 8/vhdl/RISCV/decoder.vhd}
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity decoder
+-- Compiling architecture a of decoder
+
+} {} {}} ../vhdl/RISCV/tb_regBank.vhd {1 {vcom -work riscv -2002 -explicit -vopt -stats=none {C:/Users/ar5ilis/Desktop/BE18/Sami BEN ALI Montassar DRIDI BE 8/vhdl/RISCV/tb_regBank.vhd}
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package pack_RISCV32I
+-- Compiling entity tb_regbank
+-- Compiling architecture a of tb_regbank
+
+} {} {}} ../vhdl/RISCV/tb_alu.vhd {2 {vcom -work riscv -2002 -explicit -vopt -stats=none {C:/Users/ar5ilis/Desktop/BE18/Sami BEN ALI Montassar DRIDI BE 8/vhdl/RISCV/tb_alu.vhd}
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package pack_RISCV32I
+-- Compiling entity tb_alu
+-- Compiling architecture archi of tb_alu
+** Warning: C:/Users/ar5ilis/Desktop/BE18/Sami BEN ALI Montassar DRIDI BE 8/vhdl/RISCV/tb_alu.vhd(40): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/ar5ilis/Desktop/BE18/Sami BEN ALI Montassar DRIDI BE 8/vhdl/RISCV/tb_alu.vhd(43): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/ar5ilis/Desktop/BE18/Sami BEN ALI Montassar DRIDI BE 8/vhdl/RISCV/tb_alu.vhd(48): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/ar5ilis/Desktop/BE18/Sami BEN ALI Montassar DRIDI BE 8/vhdl/RISCV/tb_alu.vhd(51): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/ar5ilis/Desktop/BE18/Sami BEN ALI Montassar DRIDI BE 8/vhdl/RISCV/tb_alu.vhd(56): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/ar5ilis/Desktop/BE18/Sami BEN ALI Montassar DRIDI BE 8/vhdl/RISCV/tb_alu.vhd(59): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/ar5ilis/Desktop/BE18/Sami BEN ALI Montassar DRIDI BE 8/vhdl/RISCV/tb_alu.vhd(64): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/ar5ilis/Desktop/BE18/Sami BEN ALI Montassar DRIDI BE 8/vhdl/RISCV/tb_alu.vhd(67): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/ar5ilis/Desktop/BE18/Sami BEN ALI Montassar DRIDI BE 8/vhdl/RISCV/tb_alu.vhd(72): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/ar5ilis/Desktop/BE18/Sami BEN ALI Montassar DRIDI BE 8/vhdl/RISCV/tb_alu.vhd(75): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/ar5ilis/Desktop/BE18/Sami BEN ALI Montassar DRIDI BE 8/vhdl/RISCV/tb_alu.vhd(80): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/ar5ilis/Desktop/BE18/Sami BEN ALI Montassar DRIDI BE 8/vhdl/RISCV/tb_alu.vhd(83): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/ar5ilis/Desktop/BE18/Sami BEN ALI Montassar DRIDI BE 8/vhdl/RISCV/tb_alu.vhd(88): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/ar5ilis/Desktop/BE18/Sami BEN ALI Montassar DRIDI BE 8/vhdl/RISCV/tb_alu.vhd(91): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/ar5ilis/Desktop/BE18/Sami BEN ALI Montassar DRIDI BE 8/vhdl/RISCV/tb_alu.vhd(96): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/ar5ilis/Desktop/BE18/Sami BEN ALI Montassar DRIDI BE 8/vhdl/RISCV/tb_alu.vhd(99): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/ar5ilis/Desktop/BE18/Sami BEN ALI Montassar DRIDI BE 8/vhdl/RISCV/tb_alu.vhd(104): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/ar5ilis/Desktop/BE18/Sami BEN ALI Montassar DRIDI BE 8/vhdl/RISCV/tb_alu.vhd(107): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/ar5ilis/Desktop/BE18/Sami BEN ALI Montassar DRIDI BE 8/vhdl/RISCV/tb_alu.vhd(112): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/ar5ilis/Desktop/BE18/Sami BEN ALI Montassar DRIDI BE 8/vhdl/RISCV/tb_alu.vhd(115): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/ar5ilis/Desktop/BE18/Sami BEN ALI Montassar DRIDI BE 8/vhdl/RISCV/tb_alu.vhd(120): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/ar5ilis/Desktop/BE18/Sami BEN ALI Montassar DRIDI BE 8/vhdl/RISCV/tb_alu.vhd(123): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/ar5ilis/Desktop/BE18/Sami BEN ALI Montassar DRIDI BE 8/vhdl/RISCV/tb_alu.vhd(128): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/ar5ilis/Desktop/BE18/Sami BEN ALI Montassar DRIDI BE 8/vhdl/RISCV/tb_alu.vhd(131): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/ar5ilis/Desktop/BE18/Sami BEN ALI Montassar DRIDI BE 8/vhdl/RISCV/tb_alu.vhd(136): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/ar5ilis/Desktop/BE18/Sami BEN ALI Montassar DRIDI BE 8/vhdl/RISCV/tb_alu.vhd(139): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/ar5ilis/Desktop/BE18/Sami BEN ALI Montassar DRIDI BE 8/vhdl/RISCV/tb_alu.vhd(144): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/ar5ilis/Desktop/BE18/Sami BEN ALI Montassar DRIDI BE 8/vhdl/RISCV/tb_alu.vhd(147): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/ar5ilis/Desktop/BE18/Sami BEN ALI Montassar DRIDI BE 8/vhdl/RISCV/tb_alu.vhd(152): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/ar5ilis/Desktop/BE18/Sami BEN ALI Montassar DRIDI BE 8/vhdl/RISCV/tb_alu.vhd(155): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/ar5ilis/Desktop/BE18/Sami BEN ALI Montassar DRIDI BE 8/vhdl/RISCV/tb_alu.vhd(160): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+
+} {} {}} ../vhdl/bit_enbale.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/sam/Desktop/BE s7/vhdl/bit_enbale.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity bit_enable
+-- Compiling architecture a of bit_enable
+
+} {} {}} ../vhdl/RISCV/tb_input_data_manager.vhd {1 {vcom -work riscv -2002 -explicit -vopt -stats=none {C:/Users/ar5ilis/Desktop/BE18/Sami BEN ALI Montassar DRIDI BE 8/vhdl/RISCV/tb_input_data_manager.vhd}
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity tb_input_data_manager
+-- Compiling architecture a of tb_input_data_manager
+
+} {} {}} ../vhdl/decoder.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/sam/Desktop/BE s7/vhdl/decoder.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity decoder
+-- Compiling architecture a of decoder
+
+} {} {}} ../vhdl/tb_regBank.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/sam/Desktop/BE s7/vhdl/tb_regBank.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package pack_RISCV32I
+-- Compiling entity tb_regbank
+-- Compiling architecture a of tb_regbank
+
+} {} {}} ../vhdl/tb_alu.vhd {2 {vcom -work work -2002 -explicit -stats=none {C:/Users/sam/Desktop/BE s7/vhdl/tb_alu.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package pack_RISCV32I
+-- Compiling entity tb_alu
+-- Compiling architecture archi of tb_alu
+** Warning: C:/Users/sam/Desktop/BE s7/vhdl/tb_alu.vhd(40): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/sam/Desktop/BE s7/vhdl/tb_alu.vhd(43): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/sam/Desktop/BE s7/vhdl/tb_alu.vhd(48): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/sam/Desktop/BE s7/vhdl/tb_alu.vhd(51): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/sam/Desktop/BE s7/vhdl/tb_alu.vhd(56): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/sam/Desktop/BE s7/vhdl/tb_alu.vhd(59): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/sam/Desktop/BE s7/vhdl/tb_alu.vhd(64): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/sam/Desktop/BE s7/vhdl/tb_alu.vhd(67): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/sam/Desktop/BE s7/vhdl/tb_alu.vhd(72): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/sam/Desktop/BE s7/vhdl/tb_alu.vhd(75): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/sam/Desktop/BE s7/vhdl/tb_alu.vhd(80): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/sam/Desktop/BE s7/vhdl/tb_alu.vhd(83): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/sam/Desktop/BE s7/vhdl/tb_alu.vhd(88): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/sam/Desktop/BE s7/vhdl/tb_alu.vhd(91): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/sam/Desktop/BE s7/vhdl/tb_alu.vhd(96): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/sam/Desktop/BE s7/vhdl/tb_alu.vhd(99): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/sam/Desktop/BE s7/vhdl/tb_alu.vhd(104): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/sam/Desktop/BE s7/vhdl/tb_alu.vhd(107): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/sam/Desktop/BE s7/vhdl/tb_alu.vhd(112): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/sam/Desktop/BE s7/vhdl/tb_alu.vhd(115): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/sam/Desktop/BE s7/vhdl/tb_alu.vhd(120): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/sam/Desktop/BE s7/vhdl/tb_alu.vhd(123): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/sam/Desktop/BE s7/vhdl/tb_alu.vhd(128): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/sam/Desktop/BE s7/vhdl/tb_alu.vhd(131): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/sam/Desktop/BE s7/vhdl/tb_alu.vhd(136): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/sam/Desktop/BE s7/vhdl/tb_alu.vhd(139): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/sam/Desktop/BE s7/vhdl/tb_alu.vhd(144): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/sam/Desktop/BE s7/vhdl/tb_alu.vhd(147): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/sam/Desktop/BE s7/vhdl/tb_alu.vhd(152): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/sam/Desktop/BE s7/vhdl/tb_alu.vhd(155): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: C:/Users/sam/Desktop/BE s7/vhdl/tb_alu.vhd(160): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+
+} {} {}} ../vhdl/soc/pack_system.vhd {1 {vcom -work soc -2002 -explicit -vopt -stats=none {C:/Users/ar5ilis/Desktop/BE18/Sami BEN ALI Montassar DRIDI BE 8/vhdl/soc/pack_system.vhd}
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling package pack_system
+
+} {} {}}
